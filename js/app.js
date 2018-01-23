@@ -6,7 +6,11 @@ const streams = [
   "storbeck",
   "habathcx",
   "RobotCaleb",
-  "noobs2ninjas"
+  "noobs2ninjas",
+  "nbagleague",
+  "nba",
+  "monstercat",
+  "eepi111"
 ];
 
 const channelsTable = document.querySelector(".channels-table");

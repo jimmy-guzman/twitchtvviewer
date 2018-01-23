@@ -5,10 +5,11 @@
 body {
   background: white;
   font-family: "Oswald", sans-serif;
+  margin: 0;
 }
 .container {
-  width: 75%;
-  margin: 0 auto;
+  width: 100%;
+  margin:auto;
 }
 .title {
   text-align: center;
@@ -63,14 +64,13 @@ td {
   background: rgba(119, 93, 106, 0.7);
 }
 .selected {
-    background: #775d6a;
-  }
-  
+  background: #775d6a;
+}
+
 .nav-buttons li {
   text-align: center;
   color: white;
   width: 100%;
-
 }
 
 .nav-buttons li:hover {
@@ -78,3 +78,8 @@ td {
   cursor: pointer;
 }
 
+@media (min-width: 768px) { 
+    .container {
+        width: 75%;
+    }
+ }
