@@ -9,26 +9,27 @@ body {
 }
 .container {
   width: 100%;
-  margin:auto;
+  margin: auto;
 }
-.title {
+.header {
   text-align: center;
-  background: #775d6a;
-  padding: 1.3em;
+  background: #685c79;
+  padding: 0.3em;
+  margin-bottom: 2px;
+  font-size: 24px;
+  line-height: 1;
 }
 h1 {
   color: white;
   letter-spacing: 2px;
-}
-
-.streamer {
-  border-right: 1px solid #6441a5;
+  font-weight: 400;
 }
 
 .streamer-logo {
   margin: auto;
   width: 48px;
   display: block;
+  border: 2px solid white;
 }
 
 table {
@@ -61,25 +62,26 @@ td {
   display: flex;
   justify-content: space-around;
   margin-bottom: 2px;
-  background: rgba(119, 93, 106, 0.7);
+  background: rgba(69, 92, 123, 0.7);
 }
 .selected {
-  background: #775d6a;
+  background: rgba(69, 92, 123, 1);
 }
 
 .nav-buttons li {
   text-align: center;
   color: white;
   width: 100%;
+  padding: 0.3em;
 }
 
 .nav-buttons li:hover {
-  background: #775d6a;
+  background: rgba(69, 92, 123, 1);
   cursor: pointer;
 }
 
-@media (min-width: 768px) { 
-    .container {
-        width: 75%;
-    }
- }
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
