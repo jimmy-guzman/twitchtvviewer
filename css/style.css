@@ -70,12 +70,12 @@ td {
   justify-content: space-between;
   /* border-bottom: 2px solid white; */
   color: white;
-  background: #4b367c;
+  background: rgba(75, 54, 124, .7);
   width: 100%;
 }
 .selected {
-  color: rgba(75, 54, 124, 1);
-  background: white;
+  color: white;
+  background: rgba(75, 54, 124, .7);
 }
 
 .nav-buttons li {
