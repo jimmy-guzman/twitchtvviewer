@@ -85,8 +85,8 @@ td {
 }
 
 .nav-buttons li:hover {
-  background: white;
-  color: rgba(75, 54, 124, 1);
+  background: rgba(75, 54, 124, .7);
+  color: white;
   cursor: pointer;
 }
 
