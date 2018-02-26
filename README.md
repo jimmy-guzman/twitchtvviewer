@@ -5,7 +5,7 @@
 * HTML
 * CSS
 * Javascript
-*  Twitch.tv's JSONP API
+*  Twitch.tv's API but at https://wind-bow.glitch.me/
 ### Project Goals Completed : 
 * The user can see whether Free Code Camp is currently streaming on Twitch.tv.
 * The user can click the status output and be sent directly to the appriopate Twitch.tv channel.
